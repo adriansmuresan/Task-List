@@ -22,6 +22,9 @@ function loadEventListeners() {
 
   // Filter tasks events
   filter.addEventListener('keyup', filterTasks);
+
+  // DOM load event
+  document.addEventListener('DOMContentLoaded', getTasks);
 }
 
 // Add Task
