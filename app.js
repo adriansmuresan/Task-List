@@ -59,3 +59,13 @@ function removeTask(e) {
     }
   }
 }
+
+// Clear all Tasks
+function clearTasks() {
+  // taskList.innerHTML = '';
+
+  // faster
+  while(taskList.firstChild) {
+    taskList.removeChild(taskList.firstChild);
+  }
+}
