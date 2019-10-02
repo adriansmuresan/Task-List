@@ -1,4 +1,4 @@
-## Tak List
+## Task List
 
  A task list built using vanilla JavaScript that allows us to:
  - add tasks to the list
